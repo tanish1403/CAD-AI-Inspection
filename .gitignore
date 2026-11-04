@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+data/input/*
+!data/input/.gitkeep
+data/training/*
+!data/training/.gitkeep

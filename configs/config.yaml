@@ -1,0 +1,10 @@
+models:
+  grounding_dino_id: IDEA-Research/grounding-dino-tiny
+  dinov2_id: facebook/dinov2-small
+inference:
+  max_image_side: 1280
+  grounding_box_threshold: 0.2
+  grounding_text_threshold: 0.18
+  present_threshold: 0.42
+  uncertain_threshold: 0.22
+  candidate_limit_per_part: 20

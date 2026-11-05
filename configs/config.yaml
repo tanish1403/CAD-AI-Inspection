@@ -1,0 +1,26 @@
+models:
+  grounding_dino_id: IDEA-Research/grounding-dino-tiny
+  dinov2_id: facebook/dinov2-small
+  sam2_id: facebook/sam2-hiera-small
+  use_sam2: false
+
+inference:
+  max_image_side: 960
+  grounding_box_threshold: 0.22
+  grounding_text_threshold: 0.20
+  similarity_threshold: 0.35
+  present_threshold: 0.42
+  uncertain_threshold: 0.22
+  min_box_area: 36
+  candidate_limit_per_part: 15
+
+runtime:
+  torch_dtype: float16
+  use_amp: true
+
+# Add alternate phrases for names that are not ordinary object names.
+part_aliases:
+  Bolts_M8_1: ["M8 bolt", "hex head bolt", "metal bolt"]
+  Bolts_M8_2: ["M8 bolt", "hex head bolt", "metal bolt"]
+  Bolts_M8_3: ["M8 bolt", "hex head bolt", "metal bolt"]
+  Bolts_M8_4: ["M8 bolt", "hex head bolt", "metal bolt"]

@@ -1,0 +1,39 @@
+{
+  "cad_points": [
+    [
+      100,
+      100
+    ],
+    [
+      1200,
+      100
+    ],
+    [
+      1200,
+      900
+    ],
+    [
+      100,
+      900
+    ]
+  ],
+  "real_points": [
+    [
+      200,
+      200
+    ],
+    [
+      1300,
+      200
+    ],
+    [
+      1300,
+      1000
+    ],
+    [
+      200,
+      1000
+    ]
+  ],
+  "note": "Replace these placeholder coordinates with at least four real corresponding full-resolution [x,y] points. These are examples only."
+}

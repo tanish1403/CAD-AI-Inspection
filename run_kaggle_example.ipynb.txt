@@ -1,4 +1,0 @@
-# Kaggle notebook cells (copy/paste)
-!pip install -r requirements.txt
-!python scripts/download_models.py --models grounding-dino dinov2
-!python scripts/run_inspection.py --case data/sample/AI_sample_CAD/TestCase2 --output outputs/testcase2 --device auto
